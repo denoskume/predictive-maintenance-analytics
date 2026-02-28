@@ -3,6 +3,6 @@
 
 
 COPY analytics.predictive_maintenance_raw
-FROM 'C:/Users/denos/Desktop/PROJECTS/predictive-maintenance-analytics/data/raw/predictive_maintenance.csv'
+FROM '../../predictive-maintenance-analytics/data/raw/predictive_maintenance.csv'
 DELIMITER ','
 CSV HEADER;
