@@ -1,0 +1,23 @@
+﻿# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/*.log
+
+# Power BI (optional keep pbix in repo if you want)
+# powerbi/*.pbix
+
+# Data
+# If data is sensitive, ignore raw files:
+# data/raw/*.csv

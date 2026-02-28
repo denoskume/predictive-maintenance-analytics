@@ -1,0 +1,1 @@
+Place your .pbix here (dashboard labels in French).
