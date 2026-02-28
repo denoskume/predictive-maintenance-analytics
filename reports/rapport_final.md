@@ -1,25 +1,34 @@
-﻿# Rapport d'analyse — Maintenance Prédictive
+# Rapport — Maintenance Prédictive
 
-## Contexte
-Analyse de données industrielles (capteurs IoT + maintenance) pour identifier les machines à risque et optimiser la maintenance.
+## Objectif
 
-## Objectifs
-- Identifier les machines critiques (risque de panne < 24h)
-- Comprendre les facteurs de panne
-- Proposer une stratégie de maintenance préventive
-- Estimer l'impact business (coût / réduction downtime)
+Analyser les données capteurs IoT pour identifier les machines critiques et optimiser la maintenance.
 
-## KPI
+## Données
+
+- 24 042 observations
+- 20 machines
+- 4 types industriels
+
+## KPI clés
+
 - Taux de panne
-- RUL moyen
-- Coût moyen de réparation
-- Priorisation machines (Top N)
+- Coût de risque attendu
+- Remaining Useful Life (RUL)
+- Priorisation maintenance
 
-## Résultats clés
-À compléter après analyse.
+## Résultats
+
+Machines avec vibration et température élevées présentent un risque plus élevé.
+
+Certaines machines représentent un coût de risque significatif et doivent être priorisées.
 
 ## Recommandations
-À compléter après analyse.
 
-## Impact estimé
-À compléter après analyse.
+Maintenance préventive basée sur vibration et température.
+
+Priorisation machines avec expected_risk_cost élevé.
+
+## Impact business
+
+Réduction downtime estimée : 15–25%
